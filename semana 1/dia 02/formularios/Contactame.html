@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+   
+</head>
+<body>
+
+<a href="index.html">Regresamos...?</a>
+
+    <form>
+      <h2>Contactame</h2>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+
+      <label>
+        Nombre Completo (obligatorio)
+        <input type="text" name="nombre" required minlength="3" maxlength="15" />
+      </label>  
+
+      <label>
+        Edad (obligatorio)
+        <input type="number" id="edad" min="17" max="60"/>
+      </label>
+
+      <label>
+        Email (obligatorio)
+        <input type="email" name="correo" required />
+      </label>
+
+<form action="/action_page.php">
+  <label for="country_code">Country code:</label>
+  <input type="text" id="country_code" name="country_code"
+  pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+  
+</form>
+
+      <label>
+        Tipo de comunicación (obligatorio)
+        <select name="comidas" required>
+          <option value="">Como deseas que te contacte...</option>
+          <option>Llamada por teléfono</option>
+          <option>Mensaje whatsapp</option>
+          <option>Visita Técnica</option>
+        </select>
+      </label>
+
+      <input type="submit" value="Enviar" />
+    </form>
+    
+    
+</body>
+</html>

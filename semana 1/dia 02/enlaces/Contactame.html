@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+</head>
+<body>
+    <form>
+      <h2>Contactame</h2>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+
+
+      <label>
+        Nombre (obligatorio)
+        <input type="text" name="nombre" required minlength="3" maxlength="15" />
+      </label>
+
+      <label>
+        Email (obligatorio)
+        <input type="email" name="correo" required />
+      </label>
+
+      <label>
+        Tipo de comunicación (obligatorio)
+        <select name="comidas" required>
+          <option value="">Como deseas que te contacte...</option>
+          <option>Llamada por teléfono</option>
+          <option>Mensaje whatsapp</option>
+          <option>Visita Técnica</option>
+        </select>
+      </label>
+
+      <input type="submit" value="Guardar" />
+    </form>
+    
+    
+</body>
+</html>
