@@ -1,0 +1,103 @@
+  
+  /*
+font-family: "Montserrat", sans-serif;
+font-family: "Fraunces", serif;
+*/
+body {
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 14px;
+    
+    background-color: hsl(30, 38%, 92%);
+    border: 1px solid red;
+    height: 100dvh;
+    margin: 0;
+    display:flex;  /* flexbox */
+    justify-content: center; /* alineamiento horizontal*/
+    align-items: center;/* alineamiento vertical*/
+    }
+main { /*linea imaginaria de las 2 secciones */
+    border: 1px solid white;
+    width: 650px;
+    display: flex;
+    min-height: 400px;
+    border-radius: 20px;
+    overflow: hidden;/* alineamiento vertical*/
+    }
+.photo{  
+    width: 350px;
+    background-image:url(images/image-product-desktop.jpg);
+    background-size: cover;
+    }
+.content { /*caja contenedora de texto*/
+    width: 350px;
+    padding: 28px; /* 14 x 2*/
+    display: flex;
+    flex-direction: column; /*organiza en columnas */
+    justify-content: center;
+    gap: 21px;;/*separa espacio entre elementos internos entre parrafo y subtitulo */
+    background-color: hsl(0, 0%, 100%);
+    }
+    .content h2{  /*texto perfume */
+    border: 1px solid white;
+    margin: 0;
+    text-transform: uppercase;/*convierte el texto en mayusculas */ 
+    font-weight: 300;/*grosor de la letra, PESO */ 
+    font-size:  14px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 7px; /*espaciado de letras */ 
+    }
+    .content h1{  
+    margin: 0; 
+    color: hsl(158, 42%, 18%);
+    font-family: "Fraunces", serif;
+    font-weight: 700px;
+    font-size:  40px;
+    }
+     .content p {  /*contenido de texto a floral... */
+    border: 14px;
+    margin: 0;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    line-height: 1.5;  /*interlineado espacios */
+    }
+    .content div { 
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    }
+
+   .content span{  /*contenido precio */
+    font-family: "Fraunces", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+   }
+
+   .content button{ 
+    background: red;
+    border: none;/*sin borde- quita borde */
+    background:hsl(158, 36%, 37%) ;
+    color: white;/*hsl(0, 0%, 100% equivale a blanco) */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+
+    padding: 28px; /* 14 x 2*/
+    font-size: 18px;
+
+    border-radius: 10px;/*borde de la caja contenedora */
+    display: flex;
+    justify-content: center;
+    gap: 7px;   
+   }
+
+
+
+    
+
+
+    
+
+
+
+   
